@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(25, 7, 66);
+
+}
+
+p{
+    color: white;
+}
+h1 {
+    color: white;
+}
+strong{
+    color: red;
+}
+a{
+    font-size: medium;
+    color: gold;
+    font-weight: bold;
+}
+button{
+    background-color: blueviolet;
+}
