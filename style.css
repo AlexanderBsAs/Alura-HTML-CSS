@@ -5,18 +5,40 @@ body{
 
 p{
     color: white;
+    text-shadow: 
+    2px 2px 0 black,
+    -2px -2px 0 black,
+    2px -2px 0 black,
+    -2px 2px 0 black;
 }
 h1 {
+    font-weight: 100;
+    text-shadow: 
+    2px 2px 0 black,
+    -2px -2px 0 black,
+    2px -2px 0 black,
+    -2px 2px 0 black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     color: white;
 }
 strong{
     color: red;
 }
 a{
+    text-shadow: 
+    2px 2px 0 black,
+    -2px -2px 0 black,
+    2px -2px 0 black,
+    -2px 2px 0 black;
     font-size: medium;
-    color: gold;
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 button{
-    background-color: blueviolet;
+    background-color: rgb(108, 27, 184);
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 440px;
+    height: 40px;
+
 }
