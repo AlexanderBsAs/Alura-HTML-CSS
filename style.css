@@ -1,3 +1,7 @@
+*{
+    margin: 0 auto;
+    padding: 0px;
+}
 body{
     background:linear-gradient(rgba(10, 5, 37, 0.534), rgb(109, 106, 255));
     padding: 20px;
@@ -70,4 +74,52 @@ img{
 }
 span{
     color: rgba(204, 135, 8, 0.904);
+}
+
+.texto-destacado{
+    color: rgb(230, 131, 10);
+    border: 2px solid rgb(255, 255, 255);
+    text-shadow: 
+    2px 2px 0 rgba(151, 28, 28, 0.445),
+    -2px -2px 0 rgba(175, 21, 21, 0.418),
+    2px -2px 0 rgba(156, 17, 17, 0.445),
+    -2px 2px 0 rgba(168, 15, 15, 0.384);
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    width: 50%;
+    height: 10%;
+    display: block;
+    
+    
+}
+.titulo-blog{
+    color: aliceblue;
+    text-shadow: 
+    2px 2px 0 rgba(0, 0, 0, 0.445),
+    -2px -2px 0 rgba(0, 0, 0, 0.418),
+    2px -2px 0 rgba(0, 0, 0, 0.445),
+    -2px 2px 0 rgba(0, 0, 0, 0.384);
+    text-decoration:underline red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.urgente{
+    color: rgb(247, 51, 51);
+    background: linear-gradient(black 50%, rgb(109, 106, 106));
+    padding: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 300px;
+    height: 100px;
+    display: block;
+    margin: 3% auto;
+        text-shadow: 
+    2px 2px 0 rgba(0, 0, 0, 0.445),
+    -2px -2px 0 rgba(0, 0, 0, 0.418),
+    2px -2px 0 rgba(0, 0, 0, 0.445),
+    -2px 2px 0 rgba(0, 0, 0, 0.384);
+    font-family: 'Courier New', Courier, monospace;
 }
