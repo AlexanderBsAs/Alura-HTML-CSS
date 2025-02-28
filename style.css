@@ -8,7 +8,7 @@
 body{
     background:linear-gradient(rgba(10, 5, 37, 0.534), rgb(109, 106, 255));
 
-    width:100vw;
+    width:100%;
 
 }
 
@@ -124,7 +124,7 @@ span{
     display: flex;
     align-items: center;
     width: 100%;
-    margin: 10%;
+    margin: 0;
     justify-content: space-between;
     flex-direction: column;
 }
@@ -152,8 +152,10 @@ height: 30%;
 .presentacion__contenido__botones{
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
-    gap: 0;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap:20px;
+
     
 }
 button{ 
@@ -163,8 +165,8 @@ button{
     border-radius: 10px;
     width: 30%;
     justify-content: center;
-  
-    margin: 0 5%;
+    
+    margin: 0;
     text-align: center;
     padding: 20px 0;
 
