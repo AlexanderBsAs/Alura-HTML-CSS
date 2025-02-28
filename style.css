@@ -152,16 +152,18 @@ height: 30%;
 .presentacion__contenido__botones{
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:space-around;
+    gap: 0;
     
 }
-button{
+button{ 
+     display: flex;
     background-color: rgb(108, 27, 184);
     border: 1px solid white;
     border-radius: 10px;
-    width: 20vw;
- 
-    display: block;
+    width: 30%;
+    justify-content: center;
+  
     margin: 0 5%;
     text-align: center;
     padding: 20px 0;
