@@ -52,8 +52,12 @@ a{
     font-size: medium;
     color: rgb(255, 255, 255);
     font-weight: bold;
+    transition: all 0.5s ease;
+    display: inline-block;
 }
-
+a:hover{
+    font-size: 10px;
+}
  img{
     display:block;
     width: 55%;
@@ -176,8 +180,10 @@ button{
     margin: 0;
     text-align: center;
     padding: 20px 0;
+    transition: all 0.3s ease-in-out;
 
 }
+
 button::after{
     content: "";
     position: absolute;
@@ -187,8 +193,21 @@ button::after{
     top: 0;
     opacity: 0;
   background: aliceblue;
-  transition: opacity 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 button:hover::after{
     opacity: 0.5;
+}
+button a{
+    transition: all 0.3s ease-in-out;
+}
+button:hover a {
+    transform: scale(1.4); /* Reduce el tamaño del enlace */
+}
+button a i{
+    transition: all 0.5s ease;
+}
+button:hover a i{
+    color: rgb(255, 7, 7);
+    border: 2px solid black;
 }
