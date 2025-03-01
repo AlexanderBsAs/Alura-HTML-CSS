@@ -115,6 +115,13 @@ span{
     font-family: 'Courier New', Courier, monospace;
    margin: 0 auto;
    margin-top: 5%;
+   transition: 0.5s all ease;
+}
+
+.urgente:hover{
+    background: red;
+    color: white;
+    font-weight: bolder;
 }
 .año{
     color: rgb(181, 166, 207);
