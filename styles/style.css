@@ -7,7 +7,7 @@
 }
 
 :root{
-    --color--primario: black;
+    --color--primario: rgba(0, 0, 0, 0.452);
     --color--secundario: orange;
     --color--terciario: red;
     --color--cuarto:white;
@@ -33,7 +33,7 @@ p{
     2px -2px 0 black,
     -2px 2px 0 black;
     border: 2px solid white;
-    font-size: larger;
+    font-size: 1.1rem;
     background-color: rgb(0, 0, 0);
     padding: 3%;
     border-radius: 10px;
@@ -47,7 +47,7 @@ h1 {
     -2px 2px 0 black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     color: var(--color--cuarto);
-    font-size: xx-large;
+    font-size: 2rem;
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -69,7 +69,7 @@ a{
     display: inline-block;
 }
 a:hover{
-    font-size: 10px;
+    font-size: 0.6;
 }
  img{
     display:block;
@@ -111,40 +111,11 @@ span{
     -2px 2px 0 rgba(0, 0, 0, 0.384);
    /*  text-decoration:underline red; */
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size:xx-large;
+    font-size:2rem;
     font-weight: 500;
     margin-bottom: 3%;
 }
-.cartel{
-    flex-direction: row;
-    justify-content: flex-end;
-    width:50%;
-    margin-left: 5%;
-    align-items: flex-end;
-}
-.urgente{
-    color: var(--color--terciario);
-    background: linear-gradient(black 50%, rgb(109, 106, 106));
-    padding: 20px;
-    border: 2px solid rgb(255, 255, 255);
-    width: 100%;
-    display: flex;
- 
-        text-shadow: 
-    2px 2px 0 rgba(0, 0, 0, 0.445),
-    -2px -2px 0 rgba(0, 0, 0, 0.418),
-    2px -2px 0 rgba(0, 0, 0, 0.445),
-    -2px 2px 0 rgba(0, 0, 0, 0.384);
-    font-family: 'Courier New', Courier, monospace;
 
-   transition: 0.5s all ease;
-}
-
-.urgente:hover{
-    background: var(--color--terciario);
-    color: var(--color--cuarto);
-    font-weight: bolder;
-}
 .año{
     color: var(--color--quinto);
 }
@@ -271,16 +242,52 @@ margin-top: 5%;
 
 }
 aside{
-
+/*    position:relative;
    margin-left: 10%;
-   background-image: url("../pergamino.png");
-   background-size: contain; /* o "cover", según lo que busques */
-   background-position: center;
-   background-repeat: no-repeat;
+   background-image: url("../pergamino.png"); */
+   /* background-size: contain; */ /* o "cover", según lo que busques */
+/*    background-position: center;
+   background-repeat: no-repeat; */
     height: 70vh;
+    width:40%;
    /* Si quitas height y width fijos, el aside crecerá según el contenido */
    /* min-height: 50vh;  // o el alto que quieras */
    /* width: 30vw;      // solo si realmente quieres forzar un ancho fijo */
    
    padding: 20px; /* Para que el texto no pegue al borde */
+}
+
+.urgente{
+    color: var(--color--terciario);
+    background: linear-gradient(rgba(0, 0, 0, 0.61) 50%, rgba(109, 106, 106, 0.534));
+    padding: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+ 
+        text-shadow: 
+    2px 2px 0 rgba(0, 0, 0, 0.445),
+    -2px -2px 0 rgba(0, 0, 0, 0.418),
+    2px -2px 0 rgba(0, 0, 0, 0.445),
+    -2px 2px 0 rgba(0, 0, 0, 0.384);
+    font-family: 'Courier New', Courier, monospace;
+    
+   transition: 0.5s all ease;
+}
+.cartel{
+    flex-direction: row;
+    justify-content: flex-end;
+    width:50%;
+    margin-left: 5%;
+    align-items: flex-end;
+    left: 130px;
+    top: 100px;
+    position:relative;
+    background-color: var(--color--primario opacity 50%);
+    
+}
+.urgente:hover{
+    background: var(--color--terciario);
+    color: var(--color--cuarto);
+    font-weight: bolder;
 }
