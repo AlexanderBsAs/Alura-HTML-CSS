@@ -7,9 +7,9 @@
 }
 body{
    /* background:linear-gradient(rgba(10, 5, 37, 0.534), rgb(62, 61, 131));*/
-  background-image: url(./fondo.jpg);
-  background-size: contain; /* o "cover", según lo que busques */
-  background-position: center;
+  background-image: url(../medieval.jpg);
+  background-size:cover; /* o "cover", según lo que busques */
+  background-position:center;
   background-repeat: no-repeat;
     width:100%;
 
@@ -41,7 +41,7 @@ h1 {
     display: block;
     margin: 0 auto;
     text-align: center;
-    text-decoration:underline red;
+  /*   text-decoration:underline red; */
 }
 strong{
     color: rgb(160, 70, 70);
@@ -99,7 +99,7 @@ span{
     -2px -2px 0 rgba(0, 0, 0, 0.418),
     2px -2px 0 rgba(0, 0, 0, 0.445),
     -2px 2px 0 rgba(0, 0, 0, 0.384);
-    text-decoration:underline red;
+   /*  text-decoration:underline red; */
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size:xx-large;
     font-weight: 500;
@@ -168,6 +168,7 @@ height: 30%;
     font-family: "Krona One", serif;
   font-weight: 400;
   font-style: normal;
+  background-color: rgba(0, 0, 0, 0.247);
 }
 .presentacion__contenido__titulo{
     font-size: xx-large;
@@ -243,7 +244,7 @@ justify-content: center;
 gap: 40px;
 align-items: center;
 padding: 3% 5%;
-margin-right:30%;
+margin-right:50%;
 
 }
 .header__menu__link{
@@ -262,7 +263,7 @@ margin-top: 5%;
 aside{
 
    margin-left: 10%;
-   background-image: url("./pergamino.png");
+   background-image: url("../pergamino.png");
    background-size: contain; /* o "cover", según lo que busques */
    background-position: center;
    background-repeat: no-repeat;
